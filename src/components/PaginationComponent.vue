@@ -40,7 +40,6 @@ export default {
   emits: ["get-posts"],
   methods: {
     changePage(page = 1) {
-      console.log(page);
       this.$emit("get-posts", page);
     },
   },
