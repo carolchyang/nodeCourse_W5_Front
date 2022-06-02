@@ -1,0 +1,25 @@
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  background: $white;
+  border: 2px solid $dark;
+  border-radius: 0.5rem;
+  box-shadow: $box-shadow-sm;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cardCloseBtn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: rgba($danger, 0.4);
+  font-size: 1.5rem;
+  transition: all 0.15s ease-in-out;
+  &:hover,
+  &:focus {
+    color: $danger;
+  }
+}
